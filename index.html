@@ -5,40 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="DC.date" content="2020-06-25 21:20:39 +0000" />
     <meta name="DC.language" content="ENU" />
-    <meta name="google" value="notranslate" /
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="embed.css">
+    <meta name="google" value="notranslate" />
+    <link rel="stylesheet" href="/embed.css">
     <title>Interactive video</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-        </div>
+    <nav>
+        <li><a href="#introduction" class="dropdown-item">Intro</a></li>
+        <li><a href="#uxui" class="dropdown-item">Second</a></li>
+        <li><a href="#frontend" class="dropdown-item">Third</a></li>
     </nav>
 
     <div class="smart-player-embed-container">
         <iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src="media/index_player.html?embedIFrameId=embeddedSmartPlayerInstance" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
-    
 
     <div id="#banner" class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -58,42 +38,18 @@
         </div>
     </div>
 
-    <div id="#banner" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Banner</h1>
-        </div>
-    </div>
 
-    <div id="#banner" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Banner</h1>
+    <div id="introduction" class="container jumbotron">
+        <div class="col px-0">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>
+                I get here when you click on the video
+              </h1>
+            </div>
+          </div>
         </div>
-    </div>
-
-    <div id="#banner" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Banner</h1>
-        </div>
-    </div>
-
-    <div id="#banner" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Banner</h1>
-        </div>
-    </div>
-
-    <div id="#banner" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Banner</h1>
-        </div>
-    </div>
-
-    <div id="#intro" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Introduction</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
+      </div>
 
     <script src="media/scripts/embedded-smart-player.min.js"></script>
 </body>
